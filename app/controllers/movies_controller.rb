@@ -25,7 +25,7 @@ class MoviesController < ApplicationController
   # POST /movies
   # POST /movies.json
   def create
-    @movie = current_user.movies.new(params[:movie]) #.new(movie_params)
+    @movie = current_user.movies.new(movie_params) #.new (params[:movie]
 
     respond_to do |format|
       if @movie.save
