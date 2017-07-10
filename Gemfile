@@ -49,13 +49,16 @@ end
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 # Simple form
-gem 'simple_form'
+  gem 'simple_form'
 
 # Devise
-gem 'devise'
+  gem 'devise'
 
 # URL Validator
-gem "validate_url"
+  gem "validate_url"
 
 # Nokogiri
-gem 'nokogiri'
+  gem 'nokogiri'
+
+# Mechanize 
+  gem 'mechanize'
